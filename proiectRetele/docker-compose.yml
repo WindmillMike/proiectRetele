@@ -9,6 +9,7 @@ services:
     volumes:
       - ./src:/elocal/src
       - ./blacklist.txt:/elocal/blacklist.txt
+      - ./loguri:/elocal/loguri
     ports:
       - "53:53/udp"
     tty: true

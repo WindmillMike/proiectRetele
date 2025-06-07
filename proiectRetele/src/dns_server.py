@@ -1,10 +1,11 @@
 import socket
 from dnslib import DNSRecord, RR, QTYPE, A
+import os
 
 LISTEN_IP = "0.0.0.0"
 LISTEN_PORT = 53
 BLOCKED_IP = "0.0.0.0"
-FORWARD_DNS = "8.8.8.8"  # DNS-ul real spre care forwardăm
+FORWARD_DNS = "8.8.8.8" 
 
 # Încarcă blacklist-ul
 with open("/elocal/blacklist.txt") as f:
@@ -13,6 +14,13 @@ with open("/elocal/blacklist.txt") as f:
         for line in f
         if line.strip() and not line.startswith("#")
     )
+
+# Asigură-te că directorul există
+log_path = "/elocal/loguri"
+os.makedirs(log_path, exist_ok=True)
+
+# Fișierul în care se vor salva domeniile blocate
+blocked_log_file = os.path.join(log_path, "blocate.txt")
 
 # Inițializează socket UDP pentru ascultare
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -33,6 +41,11 @@ while True:
             reply = request.reply()
             reply.add_answer(RR(qname, QTYPE.A, rdata=A(BLOCKED_IP), ttl=60))
             print(f"Domeniu blocat — {qname} → {BLOCKED_IP}")
+
+            # Salvează domeniul blocat în fișier
+            with open(blocked_log_file, "a") as log:
+                log.write(qname + "\n")
+
             sock.sendto(reply.pack(), addr)
         else:
             # Altfel → forward către un DNS real (Google)
