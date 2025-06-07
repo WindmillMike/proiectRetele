@@ -6,17 +6,13 @@ LISTEN_PORT = 8053
 FAKE_IP = "1.2.3.4"
 BLOCKED_IP = "0.0.0.0"
 
-with open("../blacklist.txt") as f:
-    blacklist = {
-        line.split()[1].strip().lower()
-        for line in f
-        if line.strip() and not line.startswith("#") and len(line.split()) == 2
-    }
+with open("/elocal/blacklist.txt") as f:
+    blacklist = set(line.strip().split()[1].lower() for line in f if line.strip() and not line.startswith("#"))
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((LISTEN_IP, LISTEN_PORT))
 
-print(f"DNS Server asculta pe {LISTEN_IP}:{LISTEN_PORT}")
+print(f"DNS Server ascultă pe {LISTEN_IP}:{LISTEN_PORT}")
 
 while True:
     try:
@@ -24,7 +20,7 @@ while True:
         request = DNSRecord.parse(data)
         qname = str(request.q.qname).rstrip('.').lower()
 
-        print(f"Intrebare DNS: {qname} de la {addr}")
+        print(f"Întrebare DNS: {qname} de la {addr}")
 
         reply = request.reply()
         if qname in blacklist:

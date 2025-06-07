@@ -8,6 +8,7 @@ services:
     privileged: true
     volumes:
       - ./src:/elocal/src
+      - ./blacklist.txt:/elocal/blacklist.txt
     tty: true
     cap_add:
       - NET_ADMIN
