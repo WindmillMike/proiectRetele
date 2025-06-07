@@ -9,6 +9,8 @@ services:
     volumes:
       - ./src:/elocal/src
       - ./blacklist.txt:/elocal/blacklist.txt
+    ports:
+      - "53:53/udp"
     tty: true
     cap_add:
       - NET_ADMIN

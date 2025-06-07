@@ -3,7 +3,7 @@ set -x
 # add route to subnet 198.7.0.0/16 via IP 172.7.0.1
 ip route add 172.7.0.0/16 via 198.7.0.1
 # add 8.8.8.8 nameserver
-echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+echo "nameserver 198.7.0.2" >> /etc/resolv.conf
 
 # we need to drop the kernel reset of hand-coded tcp connections
 # https://stackoverflow.com/a/8578541

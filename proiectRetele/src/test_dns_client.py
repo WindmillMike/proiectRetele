@@ -1,8 +1,8 @@
 from dnslib import DNSRecord
 import socket
 
-SERVER_IP = "198.7.0.2" 
-SERVER_PORT = 8053
+SERVER_IP = "198.7.0.2"
+SERVER_PORT = 53
 DOMAIN = "002-slq-470.mktoresp.com"
 
 query = DNSRecord.question(DOMAIN)
