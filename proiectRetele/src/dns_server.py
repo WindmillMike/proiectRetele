@@ -9,11 +9,17 @@ FORWARD_DNS = "8.8.8.8"
 
 # Încarcă blacklist-ul
 with open("/elocal/blacklist.txt") as f:
-    blacklist = set(
-        line.strip().split()[-1].lower()
-        for line in f
-        if line.strip() and not line.startswith("#")
-    )
+    blacklist = set()
+    for line in f:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split()
+        if len(parts) >= 2 and parts[0] in {"0.0.0.0", "127.0.0.1"}:
+            domain = parts[1].lower()
+        else:
+            domain = line.lower()
+        blacklist.add(domain)
 
 # Asigură-te că directorul există
 log_path = "/elocal/loguri"

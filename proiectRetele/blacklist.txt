@@ -8,6 +8,7 @@
 # Hosts contributed by Anudeep <anudeep@protonmail.com>
 # Domain count: 42,536
 # ===================================================================
+ads.google.com
 0.0.0.0 0001-cab8-4c8c-43de.reporo.net
 0.0.0.0 002-slq-470.mktoresp.com
 0.0.0.0 004-btr-463.mktoresp.com
