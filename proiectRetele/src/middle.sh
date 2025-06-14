@@ -12,4 +12,8 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 
 iptables -A OUTPUT -p tcp --tcp-flags
 
+iptables -I FORWARD -p tcp --dport 10000 -j NFQUEUE --queue-num 1
+
 python3 /elocal/src/arp_spoof.py &
+python3 /elocal/src/tcp_hijack.py &
+
