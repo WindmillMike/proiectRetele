@@ -1,0 +1,108 @@
+Domeniu,IP,Organizație,Companie identificată
+match.prod.bidr.io,54.76.79.164,"AS16509 Amazon.com, Inc.",amazon
+d.adroll.com,54.170.178.193,"AS16509 Amazon.com, Inc.",amazon
+ad.doubleclick.net,142.250.187.134,AS15169 Google LLC,google
+c.amazon-adsystem.com,3.160.250.121,"AS16509 Amazon.com, Inc.",amazon
+sync-tm.everesttech.net,151.101.194.49,"AS54113 Fastly, Inc.",necunoscut
+www.googleadservices.com,172.217.17.130,AS15169 Google LLC,google
+dt.adsafeprotected.com,52.25.184.0,"AS16509 Amazon.com, Inc.",amazon
+mid.rkdms.com,44.212.208.10,"AS14618 Amazon.com, Inc.",amazon
+cdn.speedcurve.com,151.101.2.217,"AS54113 Fastly, Inc.",necunoscut
+prebid-server.rubiconproject.com,69.173.144.137,"AS26667 Magnite, Inc.",rubicon
+pubads.g.doubleclick.net,142.250.187.98,AS15169 Google LLC,google
+hbopenbid.pubmatic.com,185.64.189.112,"AS62713 PubMatic, Inc.",pubmatic
+fundingchoicesmessages.google.com,216.58.212.46,AS15169 Google LLC,google
+x.bidswitch.net,35.214.136.108,AS19527 Google LLC,google
+sync.graph.bluecava.com,35.241.19.70,AS396982 Google LLC,google
+securepubads.g.doubleclick.net,172.217.20.66,AS15169 Google LLC,google
+eb2.3lift.com,76.223.111.18,"AS16509 Amazon.com, Inc.",amazon
+dclk-match.dotomi.com,89.207.16.204,AS41041 Conversant LLC,necunoscut
+sync.teads.tv,151.101.66.132,"AS54113 Fastly, Inc.",teads
+c1.adform.net,37.157.5.49,AS198622 Adform A/S,adform
+siteintercept.qualtrics.com,nerezolvat,nerezolvat,necunoscut
+bid.g.doubleclick.net,172.217.218.156,AS15169 Google LLC,google
+sync.smartadserver.com,81.17.55.106,AS60781 LeaseWeb Netherlands B.V.,necunoscut
+ups.analytics.yahoo.com,87.248.119.252,AS203220 Yahoo-UK Limited,yahoo
+b1sync.zemanta.com,64.202.112.31,AS23352 DEFT.COM,zemanta
+aa.agkn.com,3.160.246.33,"AS16509 Amazon.com, Inc.",amazon
+gum.criteo.com,178.250.7.13,AS44788 Criteo Technology SAS,necunoscut
+an.yandex.ru,77.88.21.90,AS13238 YANDEX LLC,necunoscut
+bh.contextweb.com,208.93.169.131,"AS46244 WebMD, LLC",necunoscut
+r.casalemedia.com,104.18.26.193,"AS13335 Cloudflare, Inc.",casalemedia
+ad-delivery.net,172.67.11.120,"AS13335 Cloudflare, Inc.",necunoscut
+googleads.g.doubleclick.net,142.250.184.130,AS15169 Google LLC,google
+rcp.c.appier.net,172.104.64.149,AS63949 Akamai Connected Cloud,necunoscut
+pixel-sync.sitescout.com,34.36.216.150,AS396982 Google LLC,google
+ade.googlesyndication.com,216.58.213.98,AS15169 Google LLC,google
+ads.stickyadstv.com,104.76.220.75,AS20940 Akamai International B.V.,necunoscut
+dpm.demdex.net,54.74.130.18,"AS16509 Amazon.com, Inc.",amazon
+pixel.mathtag.com,74.121.140.211,"AS30419 PaeDae, Inc.",necunoscut
+sb.scorecardresearch.com,3.160.246.129,"AS16509 Amazon.com, Inc.",amazon
+p.typekit.net,92.123.102.24,AS20940 Akamai International B.V.,necunoscut
+ag.innovid.com,18.171.103.9,"AS16509 Amazon.com, Inc.",amazon
+rtb.openx.net,35.186.253.211,AS396982 Google LLC,google
+idsync.rlcdn.com,35.244.174.68,AS396982 Google LLC,google
+fw.adsafeprotected.com,52.17.219.220,"AS16509 Amazon.com, Inc.",amazon
+cds.connatix.com,104.18.41.104,"AS13335 Cloudflare, Inc.",necunoscut
+tlx.3lift.com,3.78.168.176,"AS16509 Amazon.com, Inc.",amazon
+match.adsby.bidtheatre.com,64.227.64.62,"AS14061 DigitalOcean, LLC",necunoscut
+pagead2.googlesyndication.com,142.250.187.162,AS15169 Google LLC,google
+pm.w55c.net,35.210.130.15,AS15169 Google LLC,google
+a.tribalfusion.com,104.18.37.193,"AS13335 Cloudflare, Inc.",necunoscut
+cdn.adsafeprotected.com,3.160.246.32,"AS16509 Amazon.com, Inc.",amazon
+ssum-sec.casalemedia.com,104.18.26.193,"AS13335 Cloudflare, Inc.",casalemedia
+tr.blismedia.com,34.96.105.8,AS396982 Google LLC,google
+tpc.googlesyndication.com,142.250.187.97,AS15169 Google LLC,google
+cms.quantserve.com,91.228.74.244,"AS16509 Amazon.com, Inc.",amazon
+capi.connatix.com,172.64.146.152,"AS13335 Cloudflare, Inc.",necunoscut
+id.rlcdn.com,35.244.174.68,AS396982 Google LLC,google
+static.adsafeprotected.com,3.160.246.41,"AS16509 Amazon.com, Inc.",amazon
+ib.3lift.com,3.160.246.42,"AS16509 Amazon.com, Inc.",amazon
+secure.flashtalking.com,104.117.76.81,AS20940 Akamai International B.V.,necunoscut
+js.ad-score.com,3.160.246.97,"AS16509 Amazon.com, Inc.",amazon
+fuse.forbes.com,151.101.129.91,"AS54113 Fastly, Inc.",necunoscut
+casale-match.dotomi.com,64.158.223.140,AS41041 Conversant LLC,necunoscut
+match.adsrvr.org,52.223.40.198,"AS16509 Amazon.com, Inc.",amazon
+cm.g.doubleclick.net,216.58.213.98,AS15169 Google LLC,google
+onetag-sys.com,51.75.86.98,AS16276 OVH SAS,necunoscut
+stats.g.doubleclick.net,173.194.69.156,AS15169 Google LLC,google
+ssum.casalemedia.com,104.18.27.193,"AS13335 Cloudflare, Inc.",casalemedia
+ad.turn.com,46.228.164.11,AS56396 NEXXEN GROUP LTD,necunoscut
+direct.adsrvr.org,52.223.6.21,"AS16509 Amazon.com, Inc.",amazon
+i.ctnsnet.com,35.186.193.173,AS396982 Google LLC,google
+prebid.adnxs.com,185.89.208.11,AS29990 Xandr Inc.,adnxs
+cd.connatix.com,172.64.146.152,"AS13335 Cloudflare, Inc.",necunoscut
+cdn.parsely.com,192.0.66.2,"AS2635 Automattic, Inc",necunoscut
+secure.adnxs.com,37.252.172.123,AS29990 Xandr Inc.,adnxs
+cs.media.net,92.122.16.22,"AS16625 Akamai Technologies, Inc.",necunoscut
+ads.pubmatic.com,92.122.16.201,"AS16625 Akamai Technologies, Inc.",pubmatic
+munchkin.marketo.net,104.96.137.199,"AS16625 Akamai Technologies, Inc.",necunoscut
+www.googletagmanager.com,172.217.17.104,AS15169 Google LLC,google
+static.hotjar.com,3.160.246.60,"AS16509 Amazon.com, Inc.",amazon
+s.amazon-adsystem.com,98.82.158.241,"AS14618 Amazon.com, Inc.",amazon
+pr-bh.ybp.yahoo.com,52.18.241.251,"AS16509 Amazon.com, Inc.",amazon
+match.sharethrough.com,63.176.169.125,"AS16509 Amazon.com, Inc.",amazon
+www.google-analytics.com,216.58.213.110,AS15169 Google LLC,google
+s0.2mdn.net,172.217.17.230,AS15169 Google LLC,google
+a1159.casalemedia.com,185.170.60.90,AS27381 Index Exchange Inc.,casalemedia
+d.agkn.com,63.33.108.112,"AS16509 Amazon.com, Inc.",amazon
+i.liadm.com,34.196.44.13,"AS14618 Amazon.com, Inc.",amazon
+static.chartbeat.com,3.160.249.100,"AS16509 Amazon.com, Inc.",amazon
+fastlane.rubiconproject.com,69.173.156.138,"AS26667 Magnite, Inc.",rubicon
+secure.quantserve.com,91.228.74.159,"AS16509 Amazon.com, Inc.",amazon
+vtrk.doubleverify.com,172.64.145.17,"AS13335 Cloudflare, Inc.",necunoscut
+img.connatix.com,172.64.146.152,"AS13335 Cloudflare, Inc.",necunoscut
+cl.qualaroo.com,185.102.217.65,AS60068 Datacamp Limited,necunoscut
+b-code.liadm.com,3.160.246.48,"AS16509 Amazon.com, Inc.",amazon
+ssc-cms.33across.com,67.202.105.24,AS32748 Steadfast,necunoscut
+sync.1rx.io,46.228.174.117,AS56396 NEXXEN GROUP LTD,necunoscut
+us-u.openx.net,34.98.64.218,AS396982 Google LLC,google
+cm.ctnsnet.com,35.186.193.173,AS396982 Google LLC,google
+ib.adnxs.com,37.252.171.52,AS29990 Xandr Inc.,adnxs
+secure-assets.rubiconproject.com,104.96.128.188,"AS16625 Akamai Technologies, Inc.",rubicon
+token.rubiconproject.com,69.173.144.165,"AS26667 Magnite, Inc.",rubicon
+gcm.ctnsnet.com,35.186.193.173,AS396982 Google LLC,google
+mc.yandex.ru,87.250.251.119,AS13238 YANDEX LLC,necunoscut
+cks.connatix.com,104.18.41.104,"AS13335 Cloudflare, Inc.",necunoscut
+rp.liadm.com,52.55.127.43,"AS14618 Amazon.com, Inc.",amazon
+dsum-sec.casalemedia.com,104.18.27.193,"AS13335 Cloudflare, Inc.",casalemedia
